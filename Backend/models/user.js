@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema(
       unique: true,
     },
 
-    username: {
+    userName: {
       type: String,
       required: true,
       unique: true, // wallet or generated id

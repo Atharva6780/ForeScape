@@ -9,7 +9,7 @@ const loginSchema = z.object({
 const signupSchema = z
   .object({
     name: z.string().min(4),
-    userName: z.string().min(4),
+    username: z.string().min(4),
     email: z.string().email(),
     password: z.string().min(6),
     confirmPass: z.string().min(6),

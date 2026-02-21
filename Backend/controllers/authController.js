@@ -47,7 +47,7 @@ const loginFunction = async (req, res) => {
       user: {
         id: user._id,
         email: user.email,
-        userName: user.userName,
+        username: user.username,
         balance: user.balance,
       },
     });
@@ -69,7 +69,7 @@ const signupFunction = async (req, res) => {
       });
     }
 
-    const { name, userName, email, password } = result.data;
+    const { name, username, email, password } = result.data;
 
     // 2️⃣ Check existing user
     const existingUser = await User.findOne({ email });
@@ -85,7 +85,7 @@ const signupFunction = async (req, res) => {
     // 4️⃣ Create user
     await User.create({
       name,
-      userName,
+      username,
       email,
       password: hashedPassword,
       balance: 10000,

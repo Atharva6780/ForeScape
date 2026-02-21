@@ -4,7 +4,7 @@ const User = require("../models/user");
 const getMe = async (req, res) => {
   try {
     const user = await User.findById(req.user.id).select(
-      "email userName balance"
+      "email username balance"
     );
 
     if (!user) {
