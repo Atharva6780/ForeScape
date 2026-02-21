@@ -116,7 +116,7 @@ const Portfolio = () => {
             My Portfolio
           </h1>
           <p className="text-gray-600">
-            Track and manage your prediction market positions
+            Track and manage your market positions
           </p>
         </div>
 
@@ -174,7 +174,7 @@ const Portfolio = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">No positions yet</h3>
-              <p className="text-gray-500 max-w-md mx-auto">Start trading on prediction markets to see your positions here.</p>
+              <p className="text-gray-500 max-w-md mx-auto">Start trading on ForeScape to see your positions here.</p>
             </div>
           ) : (
             <div className="overflow-x-auto">

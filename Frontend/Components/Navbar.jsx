@@ -60,7 +60,7 @@ const Navbar = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               </div>
               <span className="text-lg font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent hidden sm:block">
-                PredictionMarket
+                ForeScape
               </span>
             </Link>
 

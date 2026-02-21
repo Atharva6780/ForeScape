@@ -1,2 +1,2 @@
-# Prediction-Market
+# ForeScape
 Trading App

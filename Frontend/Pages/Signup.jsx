@@ -77,7 +77,7 @@ const Signup = () => {
               Join the Future
             </h2>
             <p className="text-xl text-white/90">
-              Start trading on prediction markets today
+              Start trading on ForeScape today
             </p>
           </div>
 
@@ -131,7 +131,7 @@ const Signup = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
                 <span className="text-white font-bold text-xl">P</span>
               </div>
-              <span className="text-2xl font-bold text-gray-900">PredictionMarket</span>
+              <span className="text-2xl font-bold text-gray-900">ForeScape</span>
             </div>
             
             <h1 className="text-4xl font-bold text-gray-900 mb-3">

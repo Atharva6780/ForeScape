@@ -107,7 +107,7 @@ const Home = () => {
         <div className="mb-6 flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold text-gray-900">All Markets</h2>
-            <p className="text-sm text-gray-500 mt-1">Browse and trade on active prediction markets</p>
+            <p className="text-sm text-gray-500 mt-1">Browse and trade on active markets</p>
           </div>
           
           {/* Filter buttons - placeholder for future functionality */}
@@ -135,7 +135,7 @@ const Home = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">No markets available</h3>
-            <p className="text-gray-500 max-w-md mx-auto">Check back soon for new prediction markets to trade on.</p>
+            <p className="text-gray-500 max-w-md mx-auto">Check back soon for new markets to trade on.</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
